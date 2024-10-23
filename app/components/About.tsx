@@ -1,4 +1,4 @@
-"use client";
+
 
 import { SectionWrapper } from "./HigherOrderComponents";
 import { motion } from "framer-motion";
