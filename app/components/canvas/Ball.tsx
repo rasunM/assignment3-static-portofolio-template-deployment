@@ -1,4 +1,4 @@
-
+"use client";
 import CanvasLoader from "@/app/components/Loader";
 import {
 	Decal,

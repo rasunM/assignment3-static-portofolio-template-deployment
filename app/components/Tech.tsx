@@ -1,4 +1,4 @@
-
+"use client";
 import { technologies } from "@/app/constants";
 import { SectionWrapper } from "./HigherOrderComponents";
 import { BallCanvas } from "./canvas";

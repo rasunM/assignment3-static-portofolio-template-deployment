@@ -1,4 +1,4 @@
-
+"use client";
 import { SectionWrapper } from "@/app/components/HigherOrderComponents";
 import { experiences } from "@/app/constants";
 import { textVariant } from "@/app/utils/motion";

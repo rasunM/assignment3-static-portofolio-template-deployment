@@ -1,4 +1,4 @@
-
+"use client";
 import CanvasLoader from "@/app/components/Loader";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
