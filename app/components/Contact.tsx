@@ -1,4 +1,4 @@
-"use client";
+
 import { slideIn } from "@/app/utils/motion";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
