@@ -19,11 +19,12 @@ export default function Home() {
 			<Experience />
 			<Tech />
 			<Works />
+			<Feedbacks /> 
 			{/* 
 			
 			
 			
-			<Feedbacks /> */}
+			*/}
 			
 		</div>
 	);
