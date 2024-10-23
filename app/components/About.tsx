@@ -15,7 +15,7 @@ type ServiceCardProps = {
 
 const ServiceCard = ({ index, title, icon }: ServiceCardProps) => {
 	return (
-		<div className="xs:w-[250px] w-full" style={{ max: 45, scale: 1, speed: 450 }}>
+		<div className="xs:w-[250px] w-full">
 	<div className="w-full green-pink-gradient p-px rounded-[20px] shadow-card">
 		<div className="bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col">
 			<Image
