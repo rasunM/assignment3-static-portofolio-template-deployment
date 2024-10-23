@@ -15,7 +15,12 @@ export default function Home() {
 				<Navbar />
 				<Hero />
 			</div>
-			
+			<About />
+			{/* 
+			<Experience />
+			<Tech />
+			<Works />
+			<Feedbacks /> */}
 			
 		</div>
 	);
