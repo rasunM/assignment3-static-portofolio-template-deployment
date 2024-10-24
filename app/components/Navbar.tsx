@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import ResumeButton from "./ResumeButton";
+import logoImage from '../../public/logo.png'
 
 const Navbar = () => {
 	const [active, setActive] = useState("");
@@ -43,7 +44,7 @@ const Navbar = () => {
 				>
 					<Link href="https://github.com/omunite215">
 						<Image
-							src="/logo.png"
+							src={logoImage}
 							width={80}
 							height={80}
 							alt="logo"
