@@ -1,0 +1,6 @@
+.bgImage{
+    background-image: url('../public/herobg.webp');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
