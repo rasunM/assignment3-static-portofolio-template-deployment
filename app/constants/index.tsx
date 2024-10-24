@@ -1,4 +1,4 @@
-import serviceFullStack from '../../public/web.webp'
+
 
 export const navLinks = [
 	{
@@ -18,7 +18,7 @@ export const navLinks = [
 const services = [
 	{
 		title: "Full Stack Web Developer",
-		icon: serviceFullStack,
+		icon: "../../web.webp",
 	},
 	{
 		title: "UI Designer",
