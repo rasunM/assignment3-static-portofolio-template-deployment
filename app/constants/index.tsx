@@ -1,5 +1,3 @@
-
-
 export const navLinks = [
 	{
 		id: "about",
