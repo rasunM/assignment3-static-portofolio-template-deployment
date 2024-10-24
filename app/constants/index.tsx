@@ -16,7 +16,7 @@ export const navLinks = [
 const services = [
 	{
 		title: "Full Stack Web Developer",
-		icon: "../../web.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/refs/heads/main/public/web.webp",
 	},
 	{
 		title: "UI Designer",
