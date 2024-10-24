@@ -20,70 +20,70 @@ const services = [
 	},
 	{
 		title: "UI Designer",
-		icon: "/mobile.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/refs/heads/main/public/mobile.webp",
 	},
 	{
 		title: "UX Designer",
-		icon: "/backend.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/refs/heads/main/public/backend.webp",
 	},
 	{
 		title: "Content Creator",
-		icon: "/creator.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/refs/heads/main/public/creator.webp",
 	},
 ];
 
 const technologies = [
 	{
 		name: "HTML 5",
-		icon: "/tech/html.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/refs/heads/main/public/tech/html.webp",
 	},
 	{
 		name: "CSS 3",
-		icon: "/tech/css.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/refs/heads/main/public/tech/css.webp",
 	},
 	{
 		name: "JavaScript",
-		icon: "/tech/javascript.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/refs/heads/main/public/tech/javascript.webp",
 	},
 	{
 		name: "TypeScript",
-		icon: "/tech/typescript.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/refs/heads/main/public/tech/typescript.webp",
 	},
 	{
 		name: "React JS",
-		icon: "/tech/reactjs.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/refs/heads/main/public/tech/reactjs.webp",
 	},
 	{
 		name: "Next.JS",
-		icon: "/tech/nextjs.svg",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/tech/nextjs.svg",
 	},
 	{
 		name: "Redux Toolkit",
-		icon: "/tech/redux.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/tech/redux.webp",
 	},
 	{
 		name: "Tailwind CSS",
-		icon: "/tech/tailwind.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/tech/tailwind.webp",
 	},
 	{
 		name: "Three JS",
-		icon: "/tech/threejs.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/tech/threejs.webp",
 	},
 	{
 		name: "git",
-		icon: "/tech/git.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/tech/git.webp",
 	},
 	{
 		name: "figma",
-		icon: "/tech/figma.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/tech/figma.webp",
 	},
 	{
 		name: "wordpress",
-		icon: "/tech/wordpress.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/tech/wordpress.webp",
 	},
 	{
 		name: "bootstrap",
-		icon: "/tech/bootstrap.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/tech/bootstrap.webp",
 	},
 ];
 
@@ -91,7 +91,7 @@ const experiences = [
 	{
 		title: "Web Designer",
 		company_name: "A.V.M Auto",
-		icon: "/company/avm.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/company/avm.webp",
 		iconBg: "#383E56",
 		date: "2020 -  2021",
 		points: [
@@ -104,7 +104,7 @@ const experiences = [
 	{
 		title: "Wordpress Developer",
 		company_name: "A.V.M Auto",
-		icon: "/company/avm.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/company/avm.webp",
 		iconBg: "#E6DEDD",
 		date: "2021 - 2022",
 		points: [
@@ -122,7 +122,7 @@ const testimonials = [
 		testimonial:
 			"Behance is a social media platform owned by Adobe whose main focus is to showcase and discover creative work.",
 		name: "Om Patel",
-		image: "/socialmedia/behance.svg",
+		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/socialmedia/behance.svg",
 		link: "https://www.behance.net/omthecreator",
 	},
 	{
@@ -130,7 +130,7 @@ const testimonials = [
 		testimonial:
 			"LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
 		name: "Om Patel",
-		image: "/socialmedia/linkedin.svg",
+		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/socialmedia/linkedin.svg",
 		link: "https://www.linkedin.com/in/om-patel-401068143/",
 	},
 	{
@@ -138,7 +138,7 @@ const testimonials = [
 		testimonial:
 			"Dribbble is a self-promotion and social networking platform for digital designers and creatives. It serves as a design portfolio.",
 		name: "Om Patel",
-		image: "/socialmedia/dribble.svg",
+		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/socialmedia/dribble.svg",
 		link: "https://dribbble.com/om2121",
 	},
 	{
@@ -146,7 +146,7 @@ const testimonials = [
 		testimonial:
 			"Also do check out my UI/UX Portfolio where I have shared by design studies.",
 		name: "Om Patel",
-		image: "/socialmedia/portfolio.svg",
+		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/socialmedia/portfolio.svg",
 		link: "https://omthecreator.netlify.app/",
 	},
 	{
@@ -154,7 +154,7 @@ const testimonials = [
 		testimonial:
 			"Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
 		name: "Om Patel",
-		image: "/tech/github.webp",
+		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/tech/github.webp",
 		link: "https://github.com/omunite215",
 	},
 ];
@@ -178,7 +178,7 @@ const projects = [
 				color: "orange-text-gradient",
 			},
 		],
-		image: "/projectimg/quote.webp",
+		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/projectimg/quote.webp",
 		source_code_link:
 			"https://github.com/omunite215/FCC-Random-Quote-Generator",
 		netlify_link: "https://randomquotegeneratorbyom.netlify.app/",
@@ -201,7 +201,7 @@ const projects = [
 				color: "green-text-gradient",
 			},
 		],
-		image: "/projectimg/dashboard.webp",
+		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/projectimg/dashboard.webp",
 		source_code_link: "https://github.com/omunite215/React-Admin-DashBoard",
 		netlify_link: "https://reactadmindashboardbyom.netlify.app/",
 	},
@@ -219,7 +219,7 @@ const projects = [
 				color: "green-text-gradient",
 			},
 		],
-		image: "/projectimg/hoobank.webp",
+		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/projectimg/hoobank.webp",
 		source_code_link: "https://github.com/omunite215/hoobank",
 		netlify_link: "https://hoobankbyom.netlify.app/",
 	},
@@ -241,7 +241,7 @@ const projects = [
 				color: "blue-text-gradient",
 			},
 		],
-		image: "/projectimg/provid.webp",
+		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/projectimg/provid.webp",
 		source_code_link: "https://github.com/omunite215/Provid-A-YouTube-Clone",
 		netlify_link: "https://providbyom.netlify.app/",
 	},
@@ -267,7 +267,7 @@ const projects = [
 				color: "pink-text-gradient",
 			},
 		],
-		image: "/projectimg/portfoliosample.webp",
+		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/projectimg/portfoliosample.webp",
 		source_code_link: "https://github.com/omunite215/portfolio",
 		netlify_link: "https://portfoliobyompatel.netlify.app/",
 	},
