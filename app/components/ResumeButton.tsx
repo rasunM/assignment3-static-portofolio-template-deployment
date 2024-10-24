@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import resumePNG from '../../public/resume.svg'
 
 const ResumeButton = () => {
 	return (
@@ -18,7 +19,7 @@ const ResumeButton = () => {
 				}
 			>
 				<Image
-					src="/resume.svg"
+					src={resumePNG}
 					width={24}
 					height={24}
 					alt="resume"
