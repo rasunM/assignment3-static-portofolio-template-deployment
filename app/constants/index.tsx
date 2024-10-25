@@ -35,7 +35,7 @@ const services = [
 const technologies = [
 	{
 		name: "HTML 5",
-		icon: "../../public/tech/html.webp",
+		icon: "../../tech/html.webp",
 	},
 	{
 		name: "CSS 3",
