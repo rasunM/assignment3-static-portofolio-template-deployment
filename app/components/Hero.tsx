@@ -1,6 +1,8 @@
 "use client";
 import React from "react";
 import Image from "next/image";
+import styles from './hero.module.css'
+import myImg from '../../public/myImgbgremove.png'
 
 const Hero = () => {
 	return (
@@ -19,16 +21,17 @@ const Hero = () => {
 						<br className="sm:block hidden" />& Mobile Developer
 					</p>
 				</div>
-				<div className="">
+				
+			</div>
+			<div className={styles.imageSection}>
 					<Image
-					src="https://media.licdn.com/dms/image/v2/D5603AQH_dp4_ZC8SnA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1729015852819?e=1735171200&v=beta&t=NQKikNRhMHsRidfr2EPgFMlJ0uwsjmuXbFz2XiCtqV0" // Specify the path to your image
+					src={myImg} // Specify the path to your image
 					alt="Description of the image" // Provide an alt text for accessibility
 					width={500} // Specify the width of the image
-					height={300} // Specify the height of the image
+					height={400} // Specify the height of the image
+					style={{borderRadius: '300px'}}
 					/>
 				</div>
-			</div>
-			
 			
 			
 			
