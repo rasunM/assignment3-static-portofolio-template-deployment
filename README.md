@@ -56,7 +56,7 @@ The website should now be up and running on http://localhost:3000.
 
 
 ## 🗒️ Authors
-- Om Patel
+- Rasun Manohara
 
 <p align="left">
   <a href="https://skillicons.dev">
@@ -65,5 +65,7 @@ The website should now be up and running on http://localhost:3000.
     </a>
   </a>
 </p>
+
+
 
 
