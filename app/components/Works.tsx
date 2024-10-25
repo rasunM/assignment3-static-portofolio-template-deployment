@@ -6,6 +6,7 @@ import React from "react";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "./HigherOrderComponents";
+import githubIcon from '../../public/tech/github.webp'
 
 type ProjectCardProps = {
 	index: number;
@@ -49,7 +50,7 @@ const ProjectCard = ({
 						className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
 					>
 						<Image
-							src="/tech/github.webp"
+							src={githubIcon}
 							width={24}
 							height={24}
 							alt="source-code"
