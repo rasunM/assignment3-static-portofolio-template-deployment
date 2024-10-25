@@ -17,7 +17,7 @@ type ExperienceCardProps = {
 
 const ExperienceCard = ({ experience }: ExperienceCardProps) => {
 	return (
-		<div className="relative mb-10 p-5 bg-[#1d1836] text-white rounded-md shadow-md w-80">
+		<div className="relative mb-10 p-5 bg-[#1d1836] text-white rounded-md shadow-md">
 			<div className="flex items-center">
 				<div
 					className="flex justify-center items-center w-12 h-12 rounded-full"
@@ -63,14 +63,13 @@ const Experience = () => {
 			</motion.div>
 
 			<div className="mt-20 flex flex-col">
-				<VerticalTimeline>
 					{experiences.map((experience, index) => (
 						<ExperienceCard
 							key={`experience-${index}`}
 							experience={experience}
 						/>
 					))}
-				</VerticalTimeline>
+				
 			</div>
 		</>
 	);

@@ -17,7 +17,6 @@ type ProjectCardProps = {
 	}[];
 	image: string;
 	source_code_link: string;
-	netlify_link: string;
 };
 const ProjectCard = ({
 	index,
@@ -26,7 +25,6 @@ const ProjectCard = ({
 	tags,
 	image,
 	source_code_link,
-	netlify_link,
 }: ProjectCardProps) => {
 	return (
 		<div
@@ -55,19 +53,6 @@ const ProjectCard = ({
 							width={24}
 							height={24}
 							alt="source-code"
-							className="object-contain"
-						/>
-					</Link>
-					<Link
-						href={netlify_link}
-						target="_blank"
-						className="black-gradient w-10 h-10 ml-2 rounded-full flex justify-center items-center cursor-pointer"
-					>
-						<Image
-							src="/tech/netlify.webp"
-							width={24}
-							height={24}
-							alt="source code"
 							className="object-contain"
 						/>
 					</Link>

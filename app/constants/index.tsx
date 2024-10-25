@@ -15,15 +15,15 @@ export const navLinks = [
 
 const services = [
 	{
-		title: "Full Stack Web Developer",
+		title: "Web Developer",
 		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/refs/heads/main/public/web.webp",
 	},
 	{
-		title: "UI Designer",
+		title: "Mobile Developer",
 		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/refs/heads/main/public/mobile.webp",
 	},
 	{
-		title: "UX Designer",
+		title: "UI Designer",
 		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/refs/heads/main/public/backend.webp",
 	},
 	{
@@ -89,16 +89,29 @@ const technologies = [
 
 const experiences = [
 	{
-		title: "Web Designer",
-		company_name: "A.V.M Auto",
+		title: "Trainee",
+		company_name: "People's Bank Kaduwela",
 		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/company/avm.webp",
 		iconBg: "#383E56",
-		date: "2020 -  2021",
+		date: "2022 -  2023",
 		points: [
-			"Analyzing the needs of customer in a website.",
-			"Designing User Interface (UI) for the problem statement.",
-			"Improving designs to make more user friendly.",
-			"User Experience improvements and feedbacks.",
+			"Managed customer transactions, ensuring accuracy in processing cash deposits and withdrawals.",
+			"Provided exceptional customer service by addressing inquiries and resolving issues related to their accounts and transactions.",
+			"Balanced daily cash transactions, ensuring there were no discrepancies in the records.",
+			"Processed checks, drafts, and other financial instruments while adhering to bank policies and procedures.",
+		],
+	},
+	{
+		title: "Wordpress Developer",
+		company_name: "A.V.M Auto",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/company/avm.webp",
+		iconBg: "#E6DEDD",
+		date: "2021 - 2022",
+		points: [
+			"Developing and maintaining Wordpress Site for A.V.M Auto The Car Body Shop based in Ahmedabad, Gujarat India.",
+			"Analyzing feedbacks and fixing bugs.",
+			"Search Engine Optimization.",
+			"Design Maintainence and hosting maintenance.",
 		],
 	},
 	{
@@ -161,115 +174,111 @@ const testimonials = [
 
 const projects = [
 	{
-		name: "Random Quote Generator",
+		name: "E-Commerce Website",
 		description:
-			"A Fully Responsive Random Quote generating website project given by Free Code Camp while completing Front-End Libraries Certifications built using React.JS , Bootstrap CSS and HTML.",
+			"An in-progress e-commerce platform built with Next.js, featuring a menu items page with search and filtering functionality. Future updates will include layout customization, payment integration, and responsive design improvements.",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "bootstrap",
+				name: "next js",
 				color: "pink-text-gradient",
 			},
 			{
-				name: "quoteapi",
+				name: "react hooks",
 				color: "orange-text-gradient",
 			},
 		],
-		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/projectimg/quote.webp",
+		image: "https://raw.githubusercontent.com/rasunM/ecommerce-site/refs/heads/main/screen.png",
 		source_code_link:
-			"https://github.com/omunite215/FCC-Random-Quote-Generator",
-		netlify_link: "https://randomquotegeneratorbyom.netlify.app/",
+			"https://github.com/rasunM/ecommerce-site",
+		
 	},
 	{
-		name: "Admin Dashboard UI",
+		name: "Food Ordering System",
 		description:
-			"React Admin Dashboard is a stunning web application that has a beautiful User Interface and has been built using advanced JavaScript concepts, React, and Tailwind CSS which has different graphs, stats and themes.",
+			"A comprehensive food ordering system developed using Java with NetBeans IDE, leveraging the Swing package for the graphical user interface. This system allows users to browse menus, place orders, and manage their cart in a user-friendly desktop application. It follows object-oriented programming principles to ensure scalability and maintainability.",
 		tags: [
 			{
-				name: "react",
+				name: "java",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "Syncfusion UI",
+				name: "swing package",
 				color: "orange-text-gradient",
 			},
 			{
-				name: "tailwind",
+				name: "netbeans ide",
 				color: "green-text-gradient",
 			},
 		],
-		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/projectimg/dashboard.webp",
-		source_code_link: "https://github.com/omunite215/React-Admin-DashBoard",
-		netlify_link: "https://reactadmindashboardbyom.netlify.app/",
+		image: "https://raw.githubusercontent.com/HarleeS/Food-ordering-project/refs/heads/main/Overview.png",
+		source_code_link: "https://github.com/HarleeS/Food-ordering-project",
 	},
 	{
-		name: "HooBank",
+		name: "Information Site About Musicians",
 		description:
-			"A responsive Bank HomePage showcasing different features such as various payment gateways integration, easy money transfer, advanced security, etc. It has a beautiful interface made using Tailwind CSS and React",
+			"A dynamic information site built with Next.js that showcases profiles of musicians. It features a user-friendly interface with dynamic routing, enabling seamless navigation through individual musician pages.",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "tailwind",
+				name: "next js",
 				color: "green-text-gradient",
 			},
+			{
+				name: "dynamic routes",
+				color: "orange-text-gradient",
+			},
 		],
-		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/projectimg/hoobank.webp",
-		source_code_link: "https://github.com/omunite215/hoobank",
-		netlify_link: "https://hoobankbyom.netlify.app/",
+		image: "https://raw.githubusercontent.com/rasunM/musicians-app/refs/heads/main/screen.png",
+		source_code_link: "https://github.com/rasunM/musicians-app",
 	},
 	{
-		name: "Provid A Youtube Clone",
+		name: "Contacts Saving Application",
 		description:
-			"Provid is a YouTube clone project built with React, Material UI, and Tailwind CSS. The platform has been designed with a stunning dark mode that enhances the viewing experience. The user interface is intuitive and easy to navigate, ensuring that users can easily find the content they're looking for.",
+			"A contact-saving application developed using Dart and Flutter, inspired by the design of the Xiaomi Contacts app. This application offers a sleek and intuitive user interface for managing contacts, allowing users to easily add, edit, and organize their contact information while ensuring a smooth and responsive experience.",
+		tags: [
+			{
+				name: "dart",
+				color: "blue-text-gradient",
+			},
+			{
+				name: "flutter",
+				color: "orange-text-gradient",
+			},
+		],
+		image: "https://raw.githubusercontent.com/rasunM/contacts-saving-application/refs/heads/main/photo_2024-05-29_16-00-31.jpg",
+		source_code_link: "https://github.com/rasunM/contacts-saving-application",
+	},
+	{
+		name: "Movie Application",
+		description:
+			"An interactive movie exploration application developed using Next.js and powered by API data fetching. Utilizing SWR for efficient data retrieval, this application allows users to search and filter movies seamlessly. With a user-friendly interface, it provides an engaging experience for discovering and exploring a wide range of films.",
 		tags: [
 			{
 				name: "react",
 				color: "blue-text-gradient",
 			},
 			{
-				name: "materialui",
+				name: "next js",
+				color: "green-text-gradient",
+			},
+			{
+				name: "api",
 				color: "orange-text-gradient",
 			},
 			{
-				name: "rapidapi",
-				color: "blue-text-gradient",
-			},
-		],
-		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/projectimg/provid.webp",
-		source_code_link: "https://github.com/omunite215/Provid-A-YouTube-Clone",
-		netlify_link: "https://providbyom.netlify.app/",
-	},
-	{
-		name: "A 3D Developer Portfolio",
-		description:
-			"A responsive 3D Portfolio website which is made using Three.js a cross-browser JavaScript library and application programming interface used to create and display animated 3D computer graphics in a web browser using WebGL. It has a beautiful interface made using Tailwind CSS and React.",
-		tags: [
-			{
-				name: "react",
-				color: "blue-text-gradient",
-			},
-			{
-				name: "tailwind",
-				color: "green-text-gradient",
-			},
-			{
-				name: "threejs",
-				color: "orange-text-gradient",
-			},
-			{
-				name: "emailjs",
+				name: "react hooks",
 				color: "pink-text-gradient",
 			},
 		],
-		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/projectimg/portfoliosample.webp",
-		source_code_link: "https://github.com/omunite215/portfolio",
-		netlify_link: "https://portfoliobyompatel.netlify.app/",
+		image: "https://raw.githubusercontent.com/rasunM/movie-app/refs/heads/main/screen.png",
+		source_code_link: "https://github.com/rasunM/movie-app",
 	},
 ];
 
