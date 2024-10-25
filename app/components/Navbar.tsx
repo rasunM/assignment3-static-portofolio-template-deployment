@@ -5,6 +5,8 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import ResumeButton from "./ResumeButton";
 import logoImage from '../../public/logo.png'
+import menuSvg from '../../public/menu.svg'
+import closeSvg from '../../public/close.svg'
 
 const Navbar = () => {
 	const [active, setActive] = useState("");
@@ -42,7 +44,7 @@ const Navbar = () => {
 						window.scrollTo(0, 0);
 					}}
 				>
-					<Link href="https://github.com/omunite215">
+					<Link href="https://github.com/rasunM">
 						<Image
 							src={logoImage}
 							width={80}
@@ -53,7 +55,7 @@ const Navbar = () => {
 						/>
 					</Link>
 					<p className="text-white text-[18px] font-bold cursor-pointer flex">
-						Om &nbsp; <span className="sm:block hidden ">| omunite215</span>
+						rasunM &nbsp; <span className="sm:block hidden ">| rasunmanohara</span>
 					</p>
 				</div>
 
@@ -71,13 +73,14 @@ const Navbar = () => {
 						</li>
 					))}
 				</ul>
-				<div className="mt-2 lg:block hidden">
+				{/* <div className="mt-2 lg:block hidden">
 					<ResumeButton />
-				</div>
+				</div> */}
 
+				 {/* navigation menu */}
 				<div className="sm:hidden flex flex-1 justify-end items-center">
 					<Image
-						src={toggle ? "/menu.svg" : "/close.svg"}
+						src={toggle ? menuSvg : closeSvg}
 						width={28}
 						height={28}
 						alt="menu"
@@ -107,9 +110,9 @@ const Navbar = () => {
 								</li>
 							))}
 							<li>
-								<div className="mt-2">
+								{/* <div className="mt-2">
 									<ResumeButton />
-								</div>
+								</div> */}
 							</li>
 						</ul>
 					</div>

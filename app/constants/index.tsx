@@ -8,8 +8,16 @@ export const navLinks = [
 		title: "Work",
 	},
 	{
-		id: "contact",
-		title: "Contact",
+		id: "tech",
+		title: "technologies",
+	},
+	{
+		id: "projects",
+		title: "projects",
+	},
+	{
+		id: "social",
+		title: "social profiles",
 	},
 ];
 
@@ -35,7 +43,7 @@ const services = [
 const technologies = [
 	{
 		name: "HTML 5",
-		icon: "../../tech/html.webp",
+		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/refs/heads/main/public/tech/html.webp",
 	},
 	{
 		name: "CSS 3",
@@ -58,16 +66,8 @@ const technologies = [
 		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/tech/nextjs.svg",
 	},
 	{
-		name: "Redux Toolkit",
-		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/tech/redux.webp",
-	},
-	{
 		name: "Tailwind CSS",
 		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/tech/tailwind.webp",
-	},
-	{
-		name: "Three JS",
-		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/tech/threejs.webp",
 	},
 	{
 		name: "git",
@@ -78,12 +78,12 @@ const technologies = [
 		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/tech/figma.webp",
 	},
 	{
-		name: "wordpress",
-		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/tech/wordpress.webp",
+		name: "flutter",
+		icon: "https://th.bing.com/th/id/OIP.1fsO82H3v8pgaeGXj_c0OAHaHa?rs=1&pid=ImgDetMain",
 	},
 	{
-		name: "bootstrap",
-		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/tech/bootstrap.webp",
+		name: "dart",
+		icon: "https://th.bing.com/th/id/OIP.2vgWfJ6FyHbFRMGyKDOHZQHaHa?w=640&h=640&rs=1&pid=ImgDetMain",
 	},
 ];
 
@@ -102,29 +102,27 @@ const experiences = [
 		],
 	},
 	{
-		title: "Wordpress Developer",
-		company_name: "A.V.M Auto",
+		title: "UI UX Task Master",
+		company_name: "Entre Club, University of Sri Jayawardhenapura",
 		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/company/avm.webp",
 		iconBg: "#E6DEDD",
-		date: "2021 - 2022",
+		date: "2024 - present",
 		points: [
-			"Developing and maintaining Wordpress Site for A.V.M Auto The Car Body Shop based in Ahmedabad, Gujarat India.",
-			"Analyzing feedbacks and fixing bugs.",
-			"Search Engine Optimization.",
-			"Design Maintainence and hosting maintenance.",
+			" Developed visually appealing posts and videos to promote club activities, events, and initiatives, enhancing engagement and visibility.",
+			"Worked closely with team members to brainstorm creative concepts and ensure that designs aligned with the club's branding and objectives.",
+			"Actively solicited and incorporated feedback from club members and stakeholders to refine designs and improve overall user experience.",
 		],
 	},
 	{
-		title: "Wordpress Developer",
-		company_name: "A.V.M Auto",
+		title: "Editorial Crew Member",
+		company_name: "ICTSA, University of Sri Jayawardhenapura",
 		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/company/avm.webp",
 		iconBg: "#E6DEDD",
-		date: "2021 - 2022",
+		date: "2024 -  present",
 		points: [
-			"Developing and maintaining Wordpress Site for A.V.M Auto The Car Body Shop based in Ahmedabad, Gujarat India.",
-			"Analyzing feedbacks and fixing bugs.",
-			"Search Engine Optimization.",
-			"Design Maintainence and hosting maintenance.",
+			"Headed the marketing and designing crew for the Educo project, creating engaging posts and videos to promote educational initiatives at the university.",
+			"Collaborated with fellow editorial crew members to brainstorm and execute innovative concepts for effective communication and branding within the ICTSA.",
+			"Managed and optimized social media platforms to increase engagement and inform the student community about ICTSA events and resources."
 		],
 	},
 ];
@@ -133,42 +131,18 @@ const testimonials = [
 	{
 		id: 1,
 		testimonial:
-			"Behance is a social media platform owned by Adobe whose main focus is to showcase and discover creative work.",
-		name: "Om Patel",
-		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/socialmedia/behance.svg",
-		link: "https://www.behance.net/omthecreator",
+			"LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
+		name: "Rasun Manohara",
+		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/socialmedia/linkedin.svg",
+		link: "https://www.linkedin.com/in/rasunmanohara6a4208247/",
 	},
 	{
 		id: 2,
 		testimonial:
-			"LinkedIn is a business and employment-focused social media platform that works through websites and mobile apps.",
-		name: "Om Patel",
-		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/socialmedia/linkedin.svg",
-		link: "https://www.linkedin.com/in/om-patel-401068143/",
-	},
-	{
-		id: 3,
-		testimonial:
-			"Dribbble is a self-promotion and social networking platform for digital designers and creatives. It serves as a design portfolio.",
-		name: "Om Patel",
-		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/socialmedia/dribble.svg",
-		link: "https://dribbble.com/om2121",
-	},
-	{
-		id: 4,
-		testimonial:
-			"Also do check out my UI/UX Portfolio where I have shared by design studies.",
-		name: "Om Patel",
-		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/socialmedia/portfolio.svg",
-		link: "https://omthecreator.netlify.app/",
-	},
-	{
-		id: 5,
-		testimonial:
 			"Also do check out my Github Profile where I have shared all my codes from basic to advanced.",
-		name: "Om Patel",
+		name: "rasunM",
 		image: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/f0d9e95255f91305efa64c1a6f3b441883c1ebba/public/tech/github.webp",
-		link: "https://github.com/omunite215",
+		link: "https://github.com/rasunM",
 	},
 ];
 
