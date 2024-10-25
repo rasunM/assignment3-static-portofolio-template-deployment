@@ -1,19 +1,11 @@
-# Project 3D - Portfolio
+# Protfolio
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/78680563/227708528-0e803ddf-506e-4d8b-98bc-dd7bf0f1b518.png" alt="Om's Logo Image"/>
 </p>
 
-This was my first project using Vite. Initially made using tutorial of [JavaScipt Mastery](https://youtu.be/0fYi8SGA20k?feature=shared).
 
-Work done on it other than the tutorial:-
-- Removed unused CSS.
-- Removed Extra Animations.
-- Made UI Faster.
-- Added a Resume Button (Where you can put a link to your resume).
-- Enhanced Visibility and solved Responsive UI Problems.
-
-This Project is hosted in Netlify : [3D Portfolio](https://portfoliobyompatel.netlify.app/)
+This Project is hosted in github pages : [Portfolio]([https://portfoliobyompatel.netlify.app/](https://rasunm.github.io/assignment3-static-portofolio-template-deployment/))
 
 ## :star: Give A Star
 
@@ -25,8 +17,6 @@ These instructions will get you a copy of the project up and running on your loc
 
 Prerequisites
 Before you start, make sure you have the following software installed on your computer:
-
-[![My Skills](https://skillicons.dev/icons?i=nodejs)](https://skillicons.dev)
 
 
 ## ℹ️ How to use this Repository?
@@ -58,33 +48,22 @@ The website should now be up and running on http://localhost:3000.
 
 [![My Skills](https://skillicons.dev/icons?i=vscode,react,nextjs,threejs,tailwind,netlify)](https://skillicons.dev)
 
-## 🛠 Skills
-
-[![My Skills](https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,tailwind,threejs)](https://skillicons.dev)
-
-## 🚀 About Me
-Specializations:
-- UI/UX Design.
-- Web Development
 
 ## 🙋‍♂️ Connect With Me
 
-[<img src="https://skillicons.dev/icons?i=github" />](https://github.com/omunite215)&nbsp;
-[<img src="https://skillicons.dev/icons?i=linkedin" />](https://www.linkedin.com/in/om-patel-401068143/)&nbsp;
-[<img src="https://skillicons.dev/icons?i=instagram" />](https://www.instagram.com/_21omp/)&nbsp;
-[<img src="https://skillicons.dev/icons?i=devto" />](https://portfoliobyom.netlify.app/)
+[<img src="https://skillicons.dev/icons?i=github" />](https://github.com/rasunM)&nbsp;
+[<img src="https://skillicons.dev/icons?i=linkedin" />](https://www.linkedin.com/in/rasunmanohara6a4208247/)&nbsp;
+
 
 ## 🗒️ Authors
 - Om Patel
 
 <p align="left">
   <a href="https://skillicons.dev">
-    <a href="https://github.com/omunite215">
+    <a href="https://github.com/rasunM">
       <img src="https://skillicons.dev/icons?i=github" />
     </a>
   </a>
 </p>
 
-<p align="center">
-  <img src="https://github.com/omunite215/Project_3DPortfolio/assets/78680563/2fcf609b-e802-4fec-8c82-8f55fd043437" alt="Om's Logo Image"/>
-</p>
+
