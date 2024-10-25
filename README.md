@@ -1,7 +1,7 @@
 # Protfolio
 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/78680563/227708528-0e803ddf-506e-4d8b-98bc-dd7bf0f1b518.png" alt="Om's Logo Image"/>
+  <img src="https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/refs/heads/main/public/screen.png" alt="Rasun Manohara"/>
 </p>
 
 
