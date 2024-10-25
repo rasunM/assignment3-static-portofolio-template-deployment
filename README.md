@@ -5,7 +5,7 @@
 </p>
 
 
-This Project is hosted in github pages : [Portfolio]([https://portfoliobyompatel.netlify.app/](https://rasunm.github.io/assignment3-static-portofolio-template-deployment/))
+This Project is hosted in github pages : [Click Here](https://rasunm.github.io/assignment3-static-portofolio-template-deployment/).
 
 ## :star: Give A Star
 
