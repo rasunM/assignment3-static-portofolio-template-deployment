@@ -35,7 +35,7 @@ const services = [
 const technologies = [
 	{
 		name: "HTML 5",
-		icon: "https://raw.githubusercontent.com/rasunM/assignment3-static-portofolio-template-deployment/refs/heads/main/public/tech/html.webp",
+		icon: "../../public/tech/html.webp",
 	},
 	{
 		name: "CSS 3",
