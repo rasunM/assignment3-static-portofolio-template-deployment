@@ -24,13 +24,13 @@ Before you start, make sure you have the following software installed on your co
 1. Clone the repository to your local machine
 
 ```bash
-  git clone https://github.com/omunite215/Project_3DPortfolio.git
+  git clone https://github.com/rasunM/assignment3-static-portofolio-template-deployment.git
 
 ```
 2. Navigate to the project directory
 
 ```bash
-  cd Project_3DPortfolio
+  cd assignment3-static-portofolio-template-deployment
 ```
 3. Install the necessary dependencies
 ```bash
